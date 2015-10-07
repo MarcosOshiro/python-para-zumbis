@@ -1,3 +1,6 @@
+'''
+Como fiz
+
 n1=int(input('1º número: '))
 n2=int(input('2º número: '))
 n3=int(input('3º número: '))
@@ -22,3 +25,23 @@ elif n2 < n3:
 else:
     print('O menor número é %d' %n3)
     
+'''
+
+#Como foi feito no video
+
+a = int(input('a: '))
+b = int(input('b: '))
+c = int(input('c: '))
+if a >= b and a >= c:
+    print ('Maior: %d' %a)
+elif b >= c:
+    print ('Maior: %d' %b)
+else:
+    print ('Maior: %d' %c)
+
+if a <= b and a <= c:
+    print ('Maior: %d' %a)
+elif b <= c:
+    print ('Maior: %d' %b)
+else:
+    print ('Maior: %d' %c)
