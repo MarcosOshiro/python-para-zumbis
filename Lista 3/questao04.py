@@ -6,10 +6,13 @@ leia um número inteiro calcule o seu número de Fibonacci. F1 = 1, F2 = 1,
 F3 = 2, etc.
 '''
 
-fibo = [1, 1]
-n = int(input("Número: "))
-cont = 0
+def fib(n):
+ a,b = 1,1
+ for i in range(n-1):
+  a,b = b,a+b
+ return a
+print (fib(6))
 
-while cont < = n:
-    fibo.append(fibo[:]+fibo[])
-    cont += 1
+'''
+Copiei descaradamente, não consegui aplicar conhecimento aqui. Preocupante.
+'''
