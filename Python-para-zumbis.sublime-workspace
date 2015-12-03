@@ -8,22 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "TWP274_Media4notas.py",
+			"file": "Lista 1/questao01.py",
 			"settings":
 			{
-				"buffer_size": 330,
+				"buffer_size": 114,
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
 	"command_palette":
 	{
-		"height": 380.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 392.0
+		"width": 384.0
 	},
 	"console":
 	{
@@ -41,8 +45,14 @@
 	"file_history":
 	[
 		"/C/Users/MKO/AppData/Roaming/Sublime Text 2/Packages/Python/Python.sublime-build",
-		"/C/Users/MKO/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/MKO/Documents/python-para-zumbis/TWP274_Media4notas.py"
+		"/C/Users/MKO/AppData/Roaming/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/MKO/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/MKO/Desktop/teste.py",
+		"/C/Users/MKO/AppData/Roaming/Sublime Text 2/Packages/Default/exec.py",
+		"/C/Users/MKO/Documents/python-para-zumbis/Lista 1/questao01.py",
+		"/C/Users/MKO/Documents/python-para-zumbis/Lista 3 Desafios/questao02.py",
+		"/C/Users/MKO/Documents/python-para-zumbis/TWP274_Media4notas.py",
+		"/C/Users/MKO/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
@@ -82,18 +92,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "TWP274_Media4notas.py",
+					"file": "Lista 1/questao01.py",
 					"settings":
 					{
-						"buffer_size": 330,
+						"buffer_size": 114,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								330,
-								330
+								114,
+								114
 							]
 						],
 						"settings":
