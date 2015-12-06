@@ -14,5 +14,14 @@ while resto != 0:
         a = b
         b = resto
 
+'''
+Como foi feito no video
+a = int(input('a: '))
+b = int(input('b: '))
 
+while a % b !=0:
+   a, b = b, a % b
+
+print (mdc = %d' %b)
+'''
 

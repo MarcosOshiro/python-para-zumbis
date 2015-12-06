@@ -17,3 +17,14 @@ while n > 1:
         d += 1
 print ("Estes são os divisores", divisores)
 
+'''
+Como foi feito no video
+
+n = int(input('Número: '))
+for k in range(2, n):
+    while n % k == 0:
+        print (k)
+        n = n / k
+'''
+
+

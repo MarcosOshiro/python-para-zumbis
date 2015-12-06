@@ -27,3 +27,17 @@ while x <= (n-1): #n-1 pq começa do zero
     x += 1
 
 print (a)
+
+'''
+Como resolveu em video
+
+n = int(input('N: '))
+a, b = 1, 1
+k = 1
+
+while k <= n -x:
+    a, b = b, a + b
+    k = k + 1
+
+print('Fib (%d) = %d' %(n, b))
+'''
