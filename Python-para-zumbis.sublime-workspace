@@ -14,6 +14,15 @@
 				"buffer_size": 114,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "/C/Users/MKO/Desktop/score",
+			"settings":
+			{
+				"buffer_size": 14748,
+				"line_ending": "Windows",
+				"name": "[10/12/2015, 16:24] +55 19 98213-5690: Marcos se c"
+			}
 		}
 	],
 	"build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
@@ -87,7 +96,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -109,6 +118,33 @@
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/MKO/Desktop/score",
+					"settings":
+					{
+						"buffer_size": 14748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[10/12/2015, 16:24] +55 19 98213-5690: Marcos se c",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
