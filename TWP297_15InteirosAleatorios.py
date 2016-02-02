@@ -1,15 +1,23 @@
 import random
+lista = []
 
-i = 0
-while i < 15:
-    print(random.randint(10, 100))
-    i += 1
-    
-''' Como foi feito no video
+while len(lista) < 15:
+    a = random.randint(10, 100)
+    if a in lista:
+        a = 0
+    else:
+        lista.append(a)
+print(lista)
+
+'''
+Como foi feito no video
 
 import random
 lista = []
-for k in range(15):
-    lista.append(ramdom.randint(10, 100))
+while len(lista < 15:
+    x = random.randint(10, 100)
+    if x not in lista:
+        lista.append(x)
+lista.sort()
 print (lista)
 '''
