@@ -1,11 +1,14 @@
 '''
-Questão C. Entre 1067 e 3627 (inclusive), quantos números são pares e também
-divisíveis por 7?
+Questão D. Daniela é uma pessoa muito supersticiosa. Para ela, um número é
+sortudo se ele contém o dígito 2 mas não o dígito 7. Então, na opinião dela,
+quantos números sortudos existem entre 18644 e 33087, incluindo os extremos?
 '''
 
-a = 1067
-par = 0
-for a in list(range(1067, 3627)):
-    if a %2 == 0 and a%7==0:
-        par += 1
-print (par)
+a = 18644
+sorte = 0
+for a in list(range(18644, 33087)):
+    if '2' in str(a):
+        if '7' not in str(a):
+            sorte += 1
+    a += 1
+print (sorte)
