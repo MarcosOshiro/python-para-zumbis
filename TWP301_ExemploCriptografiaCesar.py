@@ -9,3 +9,4 @@ def mostra(msg):
     for c in msg:
         s += chr(ord(c) - 30000)
     return s
+#
