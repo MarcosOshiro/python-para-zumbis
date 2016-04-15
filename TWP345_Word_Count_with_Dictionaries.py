@@ -4,12 +4,14 @@ cada palavra no texto.  Obs.: para saber os caracteres especiais use import
 string e utilize string.punctuation
 '''
 
+'''
+Como tentei fazer.... Até contou direito, mas fudeu no lance de retirar as pontuações
 
 import string
 with open ('alice.txt') as livro:
     texto = livro.read()
-    texto.lower()
-    texto.replace(string.punctuation, '')
+    texto =texto.lower()
+    texto = texto.replace(string.punctuation, '')#não funfou assim fdp hahahahhaha
     palavras = texto.split()
     dic={}
     for p in palavras:
@@ -17,10 +19,12 @@ with open ('alice.txt') as livro:
             dic[p] = 1
         else:
             dic[p] +=1
-#print ('Alice aparece %s vezes' %dic['alice'])
+
+#roubei o print do video
+print ('Alice aparece %s vezes' %dic['alice'])
     
 '''
-Como foi feito no video
+#Como foi feito no video
 
 arq = open('alice.txt')
 texto = arq.read()
@@ -38,4 +42,4 @@ for p in texto:
         dic[p] +=1
 print ('Alice aparece %s vezes' %dic['alice'])
 arq.close()
-'''
+
